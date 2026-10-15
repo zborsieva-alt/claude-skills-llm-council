@@ -376,7 +376,7 @@ Be direct. Don't hedge. The whole point of the council is to give the user clari
 ### step 5: present the verdict in chat
 
 
-After the chairman synthesis is complete, present the full verdict directly in chat using markdown. Do NOT generate an HTML report or any files. The user reads it in the conversation.
+After the chairman synthesis is complete, present the full verdict directly in chat using Markdown. Do NOT generate an HTML report or a separate verdict file. The user reads it in the conversation. Optional Markdown transcripts are covered by step 6.
 
 Format the output as:
 
@@ -464,4 +464,4 @@ Only save a transcript if the user asks for it or if the question is significant
 
 - **Don't council trivial questions.** If the user asks something with one right answer, just answer it. The council is for genuine uncertainty where multiple perspectives add value.
 
-- **The visual report matters.** Most users will scan the report, not read the full transcript. Make the HTML output clean and scannable.
+- **The verdict format matters.** Most users will scan the verdict, not read the full transcript. Keep the chat output clean and scannable using Markdown and the structure in step 5. Do not generate an HTML report or a separate verdict file.
